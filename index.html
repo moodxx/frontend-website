@@ -735,10 +735,11 @@
                   <h6 class="text-uppercase font-ram font-size-1">
                     Get in touch
                   </h6>
-                  <form action="" class="py-3">
+                  <form name="contact" method="POST" data-netlify="true" class="py-3">
                     <div class="row">
                       <div class="col">
                         <input
+                          name="name"
                           type="text"
                           class="form-control"
                           placeholder="Name"
@@ -746,6 +747,7 @@
                       </div>
                       <div class="col">
                         <input
+                          name ="email"
                           type="email"
                           class="form-control"
                           placeholder="Email"
@@ -753,7 +755,7 @@
                       </div>
                     </div>
                     <textarea
-                      name=""
+                      name="textarea"
                       id=""
                       cols="30"
                       rows="3"
